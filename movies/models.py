@@ -59,4 +59,4 @@ class Movie(models.Model):
     score = models.FloatField(max_length=3)
 
     def __str__(self):
-        return str(self.id)
+        return str(self.name)
